@@ -1,0 +1,122 @@
+.container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	min-height: 100vh;
+	width: 1000px;
+	margin: 0 auto;	
+}
+
+header, footer{
+	background-color: #00BFFF; 
+}
+
+section{
+	background-color: #F5F5F5;
+}
+
+h1, footer{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.content{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.wrapper{
+	width: 49%;	
+}
+
+.image-align{
+	text-align: center;
+}
+
+.image-align>img{
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+table{
+	margin: auto;
+	border-collapse: collapse;
+}
+
+td{
+	vertical-align: text-top;
+	height: 2em;
+}
+
+tr:hover{
+	background-color: #E0FFFF;
+}
+
+section>header>h3{
+	text-align: center;
+	padding: 20px;
+}
+
+.question{
+	margin-left: 40px;
+}
+
+.answer{
+	margin-left: 80px;
+	background-color: #FFE4C4;
+}
+
+.send-question>.form{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+form label {
+	display: inline-block;
+	width: 250px;
+	font-weight: bold;
+}
+
+.button-block{
+	text-align: center;
+}
+
+.button-send{
+	width: 200px;
+	padding: 20px;
+	border-radius: 30px;
+	font-weight: bold;
+	border: 0;
+	background-color: #7FFFD4;
+}
+
+#name, #email, #text{
+	padding: 5px;
+	border-radius: 20px;
+	border: 1px solid #00CED1;
+}
